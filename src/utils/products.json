@@ -1,0 +1,111 @@
+
+{
+    "rent": [
+        {
+            "id": 1,
+            "address": "Harrow Weald",
+            "price": "£1.800 pcm",
+            "type": "rent",
+            "shortdescription": "Bright four bedroom house comprises of...",
+            "longdescription": "Bright four bedroom house comprises of lounge, kitchen, downstairs shower/wc, rear garden and driveway.",
+            "image1": "https://images.unsplash.com/photo-1584738766473-61c083514bf4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+            "image2": "https://images.unsplash.com/photo-1603794067602-9feaa4f70e0c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+            "image3": "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+            "image4": "https://images.unsplash.com/photo-1600585152220-90363fe7e115?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+            "image5": "https://images.unsplash.com/photo-1604709177225-055f99402ea3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+        },
+        {
+            "id": 2,
+            "address": "Harrow",
+            "price": "£1.800 pcm",
+            "type": "rent",
+            "shortdescription": "Three bedroom semi-detached house featuring...",
+            "longdescription": "Three bedroom semi-detached house featuring two receptions, spacious kitchen, downstairs shower/wc, reat garden and driveway.",
+            "image1": "https://images.unsplash.com/photo-1430285561322-7808604715df?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+            "image2": "https://images.unsplash.com/photo-1582037928769-181f2644ecb7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+            "image3": "https://images.unsplash.com/photo-1560185893-a55cbc8c57e8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+            "image4": "https://images.unsplash.com/photo-1588854337236-6889d631faa8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+            "image5": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+        },
+        {
+            "id": 3,
+            "address": "Northwood Hill",
+            "price": "£1.550 pcm",
+            "type": "rent",
+            "shortdescription": "Three bedroom mid-terraced house comprises of...",
+            "longdescription": "Three bedroom mid-terraced house comprises of reception room, fitted kitchen, bathroom/wc and rear garden.",
+            "image1": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+            "image2": "https://images.unsplash.com/photo-1600121848594-d8644e57abab?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+            "image3": "https://images.unsplash.com/flagged/photo-1573168710865-2e4c680d921a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+            "image4": "https://images.unsplash.com/photo-1588854337221-4cf9fa96059c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+            "image5": "https://images.unsplash.com/photo-1560448075-bb485b067938?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+        },
+        {
+            "id": 4,
+            "address": "Wealdstone",
+            "price": "£1.350 pcm",
+            "type": "rent",
+            "shortdescription": "Excellent two bedroom 2nd floor flat...",
+            "longdescription": "Excellent two bedroom 2nd floor flat comprises from reception room, open plan fully integrated kitchen.",
+            "image1": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1046&q=80",
+            "image2": "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+            "image3": "https://images.unsplash.com/photo-1598928636135-d146006ff4be?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+            "image4": "https://images.unsplash.com/photo-1574739782594-db4ead022697?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+            "image5": "https://images.unsplash.com/photo-1584346651592-3aacc3c99075?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+        }
+    ],
+    "buy": [
+        {
+            "id": 5,
+            "address": "Isleworth",
+            "price": "£600.000",
+            "type": "buy",
+            "shortdescription": "This Apartment Benefits From...",
+            "longdescription": "This Apartment Benefits From A Huge Modern Open Plan Kitchen With A Reception, Two Bathrooms / One Of Which Is Ensuite With The Master Bedroom.",
+            "image1": "https://images.unsplash.com/photo-1543053927-0f3795a46e24?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+            "image2": "https://images.unsplash.com/photo-1567767292278-a4f21aa2d36e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+            "image3": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+            "image4": "https://images.unsplash.com/photo-1556912173-3bb406ef7e77?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
+            "image5": "https://images.unsplash.com/photo-1574118139440-94aef80059b5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+        },
+        {
+            "id": 6,
+            "address": "Kingsbury",
+            "price": "£350.000",
+            "type": "buy",
+            "shortdescription": "Immaculate Two Double Bedroom...",
+            "longdescription": "Immaculate Two Double Bedroom Ground Floor Maisonette Situated Within Easy Access Of Kingsbury High Street & Excellent Transportation Links.",
+            "image1": "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+            "image2": "https://images.unsplash.com/photo-1554995207-c18c203602cb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+            "image3": "https://images.unsplash.com/photo-1571508601891-ca5e7a713859?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+            "image4": "https://images.unsplash.com/photo-1582913130063-8318329a94a3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+            "image5": "https://images.unsplash.com/photo-1585128954430-22fe5b6acbea?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+        },
+        {
+            "id": 7,
+            "address": "Watford",
+            "price": "£440.000",
+            "type": "buy",
+            "shortdescription": "Three Bedroom End Of Terraced...",
+            "longdescription": "Three Bedroom End Of Terraced Family Home In Fuller Road, North Watford. This Property Benefits From A Reception With A Dining Area, Separate Modern Fitted Kitchen.",
+            "image1": "https://images.unsplash.com/photo-1571939228382-b2f2b585ce15?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+            "image2": "https://images.unsplash.com/photo-1565183997392-2f6f122e5912?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+            "image3": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
+            "image4": "https://images.unsplash.com/photo-1565183928294-7063f23ce0f8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+            "image5": "https://images.unsplash.com/photo-1613849925594-415a32298f54?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+        },
+        {
+            "id": 8,
+            "address": "Isleworth",
+            "price": "£600.000",
+            "type": "buy",
+            "shortdescription": "Stunning Immaculate Three Bedroom...",
+            "longdescription": "Stunning Immaculate Three Bedroom Top Floor Apartment. This Property Benefits From A Modern Sleek Open Plan Kitchen With A Reception, Two Modern Bathrooms.",
+            "image1": "https://images.unsplash.com/photo-1515263487990-61b07816b324?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+            "image2": "https://images.unsplash.com/photo-1565182999561-18d7dc61c393?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+            "image3": "https://images.unsplash.com/photo-1585821569331-f071db2abd8d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+            "image4": "https://images.unsplash.com/photo-1543503103-f94a0036ed9d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+            "image5": "https://images.unsplash.com/photo-1570544820842-e73cd90df808?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+        }
+    ]
+}

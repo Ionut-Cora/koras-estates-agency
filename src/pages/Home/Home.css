@@ -1,0 +1,24 @@
+
+.head-title {
+    padding: 27%;
+}
+
+.head-title h1 {
+    font-size: 4rem;
+}
+
+.head-title p {
+    font-size: 1.5rem;
+}
+
+.head-title button {
+    width: 20%;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 1%;
+}
+
+.head-img {
+    filter: brightness(50%);
+}
