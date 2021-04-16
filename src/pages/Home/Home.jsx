@@ -8,6 +8,7 @@ import header3 from '../../images/header3.jpg';
 import AboutCompany from '../../components/AboutCompany/AboutCompany';
 import PropertiesSection from '../../components/PropertiesSection/PropertiesSection';
 import ContactSection from '../../components/ContactSection/ContactSection';
+import MortgageCalculator from '../../components/MortgageCalculator/MortgageCalculator';
 import './Home.css';
 
 function Home() {
@@ -73,7 +74,10 @@ function Home() {
 
                 <PropertiesSection />
 
+                <MortgageCalculator />
+
                 <ContactSection />
+
             </Layout>
         </div>
     )

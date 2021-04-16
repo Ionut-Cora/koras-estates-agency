@@ -2,6 +2,7 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import Layout from '../../components/Layout/Layout';
 import products from '../../utils/products.json';
+import { Link } from 'react-router-dom';
 
 function Buy() {
     return(
@@ -14,7 +15,8 @@ function Buy() {
                             <div key={product.id}>
                                 <div className="d-flex flex-column align-items-center">
                                     <div className="w-50">
-                                        <Carousel>
+                                        <Link to={`/product/${product.id}`}>
+                                            <Carousel>
                                                 <Carousel.Item>
                                                     <img
                                                     className="d-block w-100"
@@ -64,7 +66,8 @@ function Buy() {
                                                     <Carousel.Caption>
                                                     </Carousel.Caption>
                                                 </Carousel.Item>
-                                            </Carousel>
+                                            </Carousel>                                       
+                                        </Link>
                                     </div>
                                     <h3>{product.address}</h3>
                                     <p>{product.longdescription}</p>
