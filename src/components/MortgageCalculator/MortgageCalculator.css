@@ -1,0 +1,24 @@
+
+#calculator-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#calculator-form .calculator-input {
+    width: 50%;
+}
+
+#calculator-form #calculator-submit {
+    width: 25%;
+    margin: 3%;
+}
+
+#calculator-result {
+    display: flex;
+    justify-content: center;
+}
+
+#calculator-result p {
+    margin: 1%;
+}
