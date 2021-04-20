@@ -70,9 +70,9 @@ function Home() {
                     </Carousel.Item>
                 </Carousel>
 
-                <AboutCompany />
-
                 <PropertiesSection />
+
+                <AboutCompany />
 
                 <MortgageCalculator />
 

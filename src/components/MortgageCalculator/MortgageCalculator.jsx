@@ -50,7 +50,7 @@ class MortgageCalculator extends React.Component {
 
     render() {
         return(
-            <div className="container">
+            <div className="mortgage-section container">
                 <h2>Mortgage Calculator</h2>
                 <form id="calculator-form">
                     <label htmlFor="full-price">Full price</label>

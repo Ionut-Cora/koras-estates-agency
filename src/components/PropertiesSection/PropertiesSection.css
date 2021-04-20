@@ -5,4 +5,12 @@
     border-radius: 5px;
     font-weight: bold;
     margin: 1%;
+    background-color: #292b2c;
+    color: #fff;
+    border: 0;
+}
+
+.properties-section button:hover {
+    background-color: #fff;
+    color: #292b2c;
 }

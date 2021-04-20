@@ -1,4 +1,12 @@
 
+.mortgage-section {
+    padding: 3%;
+}
+
+.mortgage-section h2 {
+    margin-bottom: 3%;
+}
+
 #calculator-form {
     display: flex;
     flex-direction: column;
@@ -10,8 +18,21 @@
 }
 
 #calculator-form #calculator-submit {
-    width: 25%;
+    width: 20%;
+    height: 50px;
     margin: 3%;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 1%;
+    background-color: #292b2c;
+    border: 0;
+    color: #fff;
+    margin: 3%;
+}
+
+#calculator-form #calculator-submit:hover {
+    background-color: #fff;
+    color: #292b2c;
 }
 
 #calculator-result {

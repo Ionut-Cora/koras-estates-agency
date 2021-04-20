@@ -17,6 +17,14 @@
     border-radius: 5px;
     font-weight: bold;
     margin: 1%;
+    background-color: #fff;
+    border: 0;
+    color: #292b2c;
+}
+
+.head-title button:hover {
+    background-color: #292b2c;
+    color: #fff;
 }
 
 .head-img {

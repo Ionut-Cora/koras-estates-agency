@@ -1,8 +1,25 @@
 
+.contact-section {
+    background: #292b2c;
+}
+
+.contact-section h2,
+.contact-section p {
+    color: #fff;
+}
+
 .contact-section button {
     width: 20%;
     height: 50px;
     border-radius: 5px;
     font-weight: bold;
     margin: 1%;
+    background-color: #fff;
+    color: #292b2c;
+    border: 0;
+}
+
+.contact-section button:hover {
+    background-color: #292b2c;
+    color: #fff;
 }
