@@ -10,3 +10,19 @@
 .buy-rent .product-details {
     margin: 5%;
 }
+
+.buy-rent button {
+    /* width: 20%; */
+    height: 50px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 1%;
+    background-color: #343a40;
+    color: #fff;
+    border: 0;
+}
+
+.buy-rent button:hover {
+    background-color: #fff;
+    color: #343a40;
+}

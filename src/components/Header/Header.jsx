@@ -5,7 +5,7 @@ import './Header.css';
 function Header() {
     return(
         <div>
-            <Navbar bg="light" expand="lg">
+            <Navbar bg="dark" variant="dark" expand="lg">
                 <div className="container d-flex">
                     <Navbar.Brand href="/" id="logo">Koras</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />

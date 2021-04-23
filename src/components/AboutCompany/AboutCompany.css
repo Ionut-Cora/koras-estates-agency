@@ -1,6 +1,6 @@
 
 .about-section {
-    background: #292b2c;
+    background: #343a40;
 }
 
 .about-section h2,
@@ -15,11 +15,11 @@
     font-weight: bold;
     margin: 1%;
     background-color: #fff;
-    color: #292b2c;
+    color: #343a40;
     border: 0;
 }
 
 .about-section button:hover {
-    background-color: #292b2c;
+    background-color: #343a40;
     color: #fff;
 }
