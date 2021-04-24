@@ -1,0 +1,30 @@
+
+.contact {
+    display: flex;
+}
+
+.contact #office-image {
+    width: 75%;
+    margin-top: 5%;
+    margin-bottom: 15%;
+}
+
+.contact #office-image-div,
+.contact #office-details-div {
+    width: 50%;
+}
+
+.contact #office-details-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact #office-details-div h1 {
+    margin: 10%;
+}
+
+.contact #office-details-div h5 {
+    font-weight: bold;
+}

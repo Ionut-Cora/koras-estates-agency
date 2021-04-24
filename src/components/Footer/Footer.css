@@ -2,4 +2,7 @@
 #footer {
     background-color: #343a40;
     color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }

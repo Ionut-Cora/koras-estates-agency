@@ -3,16 +3,19 @@
     margin: 25px;
 }
 
-.buy-rent .product-section {
-    margin: 10%;
+.buy-rent {
+    padding-bottom: 2.5rem;
 }
+
+/* .buy-rent .product-section {
+    margin: 10%;
+} */
 
 .buy-rent .product-details {
     margin: 5%;
 }
 
 .buy-rent button {
-    /* width: 20%; */
     height: 50px;
     border-radius: 5px;
     font-weight: bold;
