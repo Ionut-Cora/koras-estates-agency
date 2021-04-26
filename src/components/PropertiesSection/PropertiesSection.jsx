@@ -6,20 +6,19 @@ import './PropertiesSection.css';
 
 function PropertiesSection() {
     return(
-        <div className="properties-section container p-5">
-            <h2>Properties Section</h2>
+        <div className="properties-section container">
             <div className="d-flex flex-column">
-                <div className="d-flex align-items-center p-5">
+                <div className="properties-item d-flex align-items-center">
                     <img className="w-50" src={rentPicture} alt="rent properties"/>
-                    <div className="w-50">
+                    <div className="properties-details w-50">
                         <h3>Rent Properties</h3>
                         <Link to="/rent">
                             <button>More properties for rent</button>                       
                         </Link>
                     </div>
                 </div>
-                <div className="d-flex align-items-center p-5">
-                    <div className="w-50">
+                <div className="properties-item d-flex align-items-center">
+                    <div className="properties-details w-50">
                         <h3>Buy Properties</h3>
                         <Link to="/buy">
                             <button>More properties to buy</button>                       

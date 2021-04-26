@@ -5,6 +5,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 0;
+    margin: 3%;
 }
 
 #list li {
@@ -18,4 +19,61 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#review-section h3,
+#review-section h4 {
+    margin: 2%;
+}
+
+#review-section #customer-review {
+    margin-bottom: 5rem;
+    margin-top: 1.5rem;
+}
+
+#name-text,
+#name,
+#name-submit {
+    margin: 0 1rem;
+}
+
+#name-submit {
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 1%;
+    background-color: #343a40;
+    color: #fff;
+    border: 0;
+}
+
+#name-submit:hover {
+    background-color: #fff;
+    color: #343a40;
+}
+
+@media only screen and (max-width: 990px) {
+    #list {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #list {
+        display: block;
+    }
+
+    #customer {
+        margin-top: 2rem;
+        display: block;
+    }
+
+    #customer #name-submit {
+        margin-top: 2rem;
+    }
+
+    #review-section #customer-review {
+        width: 80%;
+    }
 }

@@ -23,3 +23,23 @@
     background-color: #343a40;
     color: #fff;
 }
+
+@media only screen and (max-width: 990px) {
+    .about-section button {
+        width: 50%;
+        font-size: 12px;
+        height: 30px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .about-section button {
+        width: 50%;
+        font-size: 12px;
+        height: 30px;
+    }
+
+    .about-section h2 {
+        font-size: 1.5rem;
+    }
+}

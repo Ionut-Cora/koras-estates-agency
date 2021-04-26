@@ -31,7 +31,7 @@ class ReviewForm extends React.Component {
 
     render() {
         return(
-            <div>
+            <div id="review-section">
                 <h3>Reviews</h3>
                 <h4>What are our customers saying?</h4>
                 <ul id="list">
@@ -41,11 +41,11 @@ class ReviewForm extends React.Component {
                 </ul>
 
                 <form id="customer" onSubmit={(event) => this.handleSubmit(event)}>
-                    <label htmlFor="name">Name:</label>
-                    <input type="text" name="name" onChange={(event) => this.handleName(event)} required />
-                    <input type="submit"/>
+                    <label id="name-text" htmlFor="name">Name:</label>
+                    <input id="name" type="text" name="name" onChange={(event) => this.handleName(event)} required />
+                    <input id="name-submit" type="submit"/>
                 </form>
-                <textarea name="comment" form="customer" placeholder="Enter your review" cols="40" rows="5" onChange={(event) => this.handleComment(event)} required ></textarea>
+                <textarea id="customer-review" name="comment" form="customer" placeholder="Enter your review" cols="40" rows="5" onChange={(event) => this.handleComment(event)} required ></textarea>
             </div>
         )
     }

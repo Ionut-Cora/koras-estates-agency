@@ -1,15 +1,12 @@
 
 .buy-rent h1 {
-    margin: 25px;
+    margin: 3rem;
+    font-weight: bold;
 }
 
 .buy-rent {
     padding-bottom: 2.5rem;
 }
-
-/* .buy-rent .product-section {
-    margin: 10%;
-} */
 
 .buy-rent .product-details {
     margin: 5%;
@@ -17,6 +14,7 @@
 
 .buy-rent button {
     height: 50px;
+    width: 50%;
     border-radius: 5px;
     font-weight: bold;
     margin: 1%;

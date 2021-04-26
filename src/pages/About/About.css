@@ -4,9 +4,10 @@
 }
 
 #about h1 {
-    margin: 3%;
+    margin: 3rem;
+    font-weight: bold;
 }
 
 #about p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }

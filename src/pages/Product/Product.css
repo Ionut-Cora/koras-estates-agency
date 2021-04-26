@@ -12,3 +12,15 @@
 .property-details .property-description {
     margin: 10%;
 }
+
+.property-details p {
+    font-size: 1.2rem;
+}
+
+#interest-section {
+    padding-bottom: 7rem;
+}
+
+#interest-section a {
+    color: #343a40;
+}

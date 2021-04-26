@@ -4,7 +4,22 @@
 }
 
 .contact-section h2,
-.contact-section p {
+.contact-section p,
+.contact-section a {
+    color: #fff;
+}
+
+#contact-phone,
+#contact-email {
+    margin-bottom: 1rem;
+}
+
+#contact-phone p,
+#contact-email p {
+    font-weight: bold;
+}
+
+.contact-section a:hover {
     color: #fff;
 }
 
@@ -22,4 +37,28 @@
 .contact-section button:hover {
     background-color: #343a40;
     color: #fff;
+}
+
+@media only screen and (max-width: 990px) {
+    .contact-section button {
+        width: 40%;
+        height: 40px;
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-section {
+        padding-bottom: 2.5rem;
+    }
+
+    .contact-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .contact-section button {
+        width: 40%;
+        height: 40px;
+        font-size: 13px;
+    }
 }

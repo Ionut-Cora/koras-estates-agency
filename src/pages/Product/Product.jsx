@@ -110,10 +110,10 @@ class Product extends React.Component {
                             <p>{price}</p>
                             <p>{longdescription}</p>
                         </div>
-                        <div>
+                        <div id="interest-section">
                             <h4>Interested in this property?</h4>
                             <p>Call Koras</p>
-                            <p>020 3030 4040</p>
+                            <a href="tel:020 3030 4040">020 3030 4040</a>
                         </div>
                     </div>
                 </Layout>

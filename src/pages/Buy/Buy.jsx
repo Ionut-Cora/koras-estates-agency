@@ -10,7 +10,7 @@ function Buy() {
         <div>
             <Layout>
                 <div className="buy-rent container">
-                    <h1>Buy</h1>
+                    <h1>Properties for buy</h1>
                     <div>
                         {products.buy.map((product) => (
                             <div key={product.id}>

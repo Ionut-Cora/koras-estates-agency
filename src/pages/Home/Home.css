@@ -5,6 +5,7 @@
 
 .head-title h1 {
     font-size: 4rem;
+    font-weight: bold;
 }
 
 .head-title p {
@@ -29,4 +30,44 @@
 
 .head-img {
     filter: brightness(50%);
+}
+
+@media only screen and (max-width: 990px) {
+    .head-title {
+        padding: 15%;
+    }
+
+    .head-title h1 {
+        font-size: 3rem;
+    }
+
+    .head-title p {
+        display: none;
+    }
+
+    .head-title button {
+        width: 40%;
+        height: 25px;
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .head-title {
+        padding: 15%;
+    }
+
+    .head-title h1 {
+        font-size: 2rem;
+    }
+
+    .head-title p {
+        display: none;
+    }
+
+    .head-title button {
+        width: 40%;
+        height: 25px;
+        font-size: 10px;
+    }
 }

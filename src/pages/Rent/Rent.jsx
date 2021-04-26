@@ -9,7 +9,7 @@ function Rent() {
         <div>
             <Layout>
                 <div className="buy-rent container">
-                    <h1>Rent</h1>
+                    <h1>Properties for rent</h1>
                     <div>
                         {products.rent.map((product) => (       
                             <div key={product.id}>

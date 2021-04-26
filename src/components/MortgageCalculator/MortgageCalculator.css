@@ -43,3 +43,14 @@
 #calculator-result p {
     margin: 1%;
 }
+
+@media only screen and (max-width: 600px) {
+    #calculator-form #calculator-submit {
+        height: 30px;
+        font-size: 13px;
+    }
+
+    .mortgage-section h2 {
+        font-size: 1.5rem;
+    }
+}

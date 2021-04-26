@@ -52,16 +52,16 @@ class MortgageCalculator extends React.Component {
         return(
             <div className="mortgage-section container">
                 <h2>Mortgage Calculator</h2>
-                <form id="calculator-form">
+                <form id="calculator-form" onSubmit={(event) => this.handleTotal(event)} >
                     <label htmlFor="full-price">Full price</label>
-                    <input className="calculator-input" type="number" name="full-price" onChange={(event) => this.handleFullPrice(event)} />
+                    <input className="calculator-input" type="number" name="full-price" onChange={(event) => this.handleFullPrice(event)} required />
                     <label htmlFor="deposit">Deposit</label>
-                    <input className="calculator-input" type="number" name="deposit" onChange={(event) => this.handleDeposit(event)} />
+                    <input className="calculator-input" type="number" name="deposit" onChange={(event) => this.handleDeposit(event)} required />
                     <label htmlFor="interest">Interest</label>
-                    <input className="calculator-input" type="number" name="interest" onChange={(event) => this.handleInterest(event)} />
+                    <input className="calculator-input" type="number" name="interest" onChange={(event) => this.handleInterest(event)} required />
                     <label htmlFor="years">Years</label>
-                    <input className="calculator-input" type="number" name="years" onChange={(event) => this.handleYears(event)} />
-                    <input id="calculator-submit" type="submit" onClick={(event) => this.handleTotal(event)} />
+                    <input className="calculator-input" type="number" name="years" onChange={(event) => this.handleYears(event)} required />
+                    <input id="calculator-submit" type="submit" />
                 </form>
                 <div id="calculator-result">
                     <p>Total:</p>

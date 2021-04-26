@@ -23,8 +23,47 @@
 
 .contact #office-details-div h1 {
     margin: 10%;
+    font-weight: bold;
 }
 
 .contact #office-details-div h5 {
     font-weight: bold;
+}
+
+#contact-page-phone a,
+#contact-page-email a {
+    color: #343a40;
+}
+
+#contact-page-phone,
+#contact-page-email {
+    margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 990px) {
+    .contact #office-image-div {
+        display: none;
+    }
+
+    .contact #office-details-div {
+        width: 100%;
+    }
+
+    .contact #office-details-div h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .contact #office-image-div {
+        display: none;
+    }
+
+    .contact #office-details-div {
+        width: 100%;
+    }
+
+    .contact #office-details-div h1 {
+        font-size: 1.5rem;
+    }
 }
