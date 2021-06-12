@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <Switch>
-        <Route exact path="/koras-estates-agency/#/" component={Home} />
+        <Route exact path="/#/" component={Home} />
         <Route path="/koras-estates-agency/#/buy" component={Buy} />
         <Route path="/koras-estates-agency/#/rent" component={Rent} />
         <Route path="/koras-estates-agency/#/about" component={About} />
