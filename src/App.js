@@ -13,11 +13,11 @@ function App() {
     <div className="App">
       <Switch>
         <Route exact path="/#/" component={Home} />
-        <Route path="/koras-estates-agency/#/buy" component={Buy} />
-        <Route path="/koras-estates-agency/#/rent" component={Rent} />
-        <Route path="/koras-estates-agency/#/about" component={About} />
-        <Route path="/koras-estates-agency/#/contact" component={Contact} />
-        <Route path="/koras-estates-agency/#/product/:productId" component={Product} />
+        <Route path="/#/buy" component={Buy} />
+        <Route path="/#/rent" component={Rent} />
+        <Route path="/#/about" component={About} />
+        <Route path="/#/contact" component={Contact} />
+        <Route path="/#/product/:productId" component={Product} />
       </Switch>
     </div>
   );
