@@ -12,22 +12,22 @@ function App() {
   return (
     <div className="App">
       <Switch>
-        <Route exact path="/koras-estates-agency/">
+        <Route exact path="/">
           <Home />
         </Route>
-        <Route path="/koras-estates-agency/buy">
+        <Route path="/buy">
           <Buy />
         </Route>
-        <Route path="/koras-estates-agency/rent">
+        <Route path="/rent">
           <Rent />
         </Route>
-        <Route path="/koras-estates-agency/about">
+        <Route path="/about">
           <About />
         </Route>
-        <Route path="/koras-estates-agency/contact">
+        <Route path="/contact">
           <Contact />
         </Route>
-        <Route path="/koras-estates-agency/product/:productId">
+        <Route path="/product/:productId">
           <Product />
         </Route>
       </Switch>
