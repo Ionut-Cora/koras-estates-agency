@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <HashRouter>
+    <HashRouter hashType="noslash">
       <App />
     </HashRouter>
   </React.StrictMode>,
