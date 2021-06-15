@@ -7,7 +7,7 @@ function About() {
     return(
         <div>
             <Layout>
-                <div className="container">
+                <div className="about-page container">
                     <div id="about">
                         <h1>About us</h1>
                         <p>Founded in 2005, this small family business tries its best for its customers.</p>

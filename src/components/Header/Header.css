@@ -1,5 +1,25 @@
 
+.navi {
+    min-height: 2.5rem;
+}
+
 #logo {
     margin-right: 65%;
     font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+#logo:hover {
+    color: #bfbfbf;
+}
+
+.nav-links {
+    color: #fff;
+    margin: 0 0.5rem;
+}
+
+.nav-links:hover {
+    color: #bfbfbf;
+    text-decoration: none;
 }

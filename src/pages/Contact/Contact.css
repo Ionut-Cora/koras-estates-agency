@@ -1,6 +1,7 @@
 
 .contact {
     display: flex;
+    padding-top: 3rem;
 }
 
 .contact #office-image {
