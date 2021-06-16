@@ -1,4 +1,8 @@
 
+.head-div {
+    margin-top: 3rem;
+}
+
 .head-title {
     padding: 27%;
 }
@@ -15,21 +19,21 @@
 .head-title button {
     width: 20%;
     height: 50px;
-    border-radius: 5px;
     font-weight: bold;
+    text-transform: uppercase;
     margin: 1%;
-    background-color: #fff;
-    border: 0;
-    color: #343a40;
-}
-
-.head-title button:hover {
-    background-color: #343a40;
+    background-color: transparent;
+    border: 2px solid #fff;
     color: #fff;
 }
 
+.head-title button:hover {
+    background-color: #fff;
+    color: #343a40;
+}
+
 .head-img {
-    filter: brightness(50%);
+    filter: brightness(40%);
 }
 
 @media only screen and (max-width: 990px) {
@@ -58,7 +62,7 @@
     }
 
     .head-title h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .head-title p {
@@ -66,8 +70,8 @@
     }
 
     .head-title button {
-        width: 40%;
-        height: 25px;
-        font-size: 10px;
+        min-width: 40%;
+        min-height: 25px;
+        font-size: 0.5rem;
     }
 }

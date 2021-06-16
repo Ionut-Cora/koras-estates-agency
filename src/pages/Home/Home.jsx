@@ -13,7 +13,7 @@ import './Home.css';
 
 function Home() {
     return(
-        <div>
+        <div className="head-div">
             <Layout>
                 <Carousel>
                     <Carousel.Item>                       

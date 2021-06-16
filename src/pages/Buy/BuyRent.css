@@ -8,6 +8,17 @@
     padding: 2.5rem 0;
 }
 
+.product-section {
+    background-color: #343a40;
+    padding-top: 3rem;
+    margin: 2rem 0;
+}
+
+.product-section h3,
+.product-section p {
+    color: #fff;
+}
+
 .buy-rent .product-details {
     margin: 5%;
 }
@@ -26,4 +37,19 @@
 .buy-rent button:hover {
     background-color: #fff;
     color: #343a40;
+}
+
+.interest-section {
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+
+.interest-section a {
+    color: #343a40;
+}
+
+@media only screen and (max-width: 600px) {
+    .buy-rent h1 {
+        font-size: 2rem;
+    }
 }

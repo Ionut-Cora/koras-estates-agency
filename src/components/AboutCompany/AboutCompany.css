@@ -11,17 +11,16 @@
 .about-section button {
     width: 20%;
     height: 50px;
-    border-radius: 5px;
     font-weight: bold;
     margin: 1%;
-    background-color: #fff;
-    color: #343a40;
-    border: 0;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
 }
 
 .about-section button:hover {
-    background-color: #343a40;
-    color: #fff;
+    background-color: #fff;
+    color: #343a40;
 }
 
 @media only screen and (max-width: 990px) {

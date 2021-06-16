@@ -11,17 +11,17 @@ function PropertiesSection() {
                 <div className="properties-item d-flex align-items-center">
                     <img className="w-50" src={rentPicture} alt="rent properties"/>
                     <div className="properties-details w-50">
-                        <h3>Rent Properties</h3>
+                        <h3>More properties for rent</h3>
                         <Link to="/rent">
-                            <button>More properties for rent</button>                       
+                            <button>Rent Properties</button>                       
                         </Link>
                     </div>
                 </div>
                 <div className="properties-item d-flex align-items-center">
                     <div className="properties-details w-50">
-                        <h3>Buy Properties</h3>
+                        <h3>More properties to buy</h3>
                         <Link to="/buy">
-                            <button>More properties to buy</button>                       
+                            <button>Buy Properties</button>                       
                         </Link>
                     </div>
                     <img className="w-50" src={buyPicture} alt="buy properties"/>

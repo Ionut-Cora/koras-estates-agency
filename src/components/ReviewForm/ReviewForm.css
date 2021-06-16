@@ -40,17 +40,17 @@
 #name-submit {
     height: 50px;
     width: 100px;
-    border-radius: 5px;
     font-weight: bold;
+    text-transform: uppercase;
     margin: 1%;
-    background-color: #343a40;
-    color: #fff;
-    border: 0;
+    background-color: transparent;
+    border: 2px solid #343a40;
+    color: #343a40;
 }
 
 #name-submit:hover {
-    background-color: #fff;
-    color: #343a40;
+    background-color: #343a40;
+    color: #fff;
 }
 
 @media only screen and (max-width: 990px) {

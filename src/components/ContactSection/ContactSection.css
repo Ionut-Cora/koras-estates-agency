@@ -1,6 +1,7 @@
 
 .contact-section {
     background: #343a40;
+    padding-bottom: 5rem;
 }
 
 .contact-section h2,
@@ -26,17 +27,17 @@
 .contact-section button {
     width: 20%;
     height: 50px;
-    border-radius: 5px;
     font-weight: bold;
+    text-transform: uppercase;
     margin: 1%;
-    background-color: #fff;
-    color: #343a40;
-    border: 0;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
 }
 
 .contact-section button:hover {
-    background-color: #343a40;
-    color: #fff;
+    background-color: #fff;
+    color: #343a40;
 }
 
 @media only screen and (max-width: 990px) {
