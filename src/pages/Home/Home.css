@@ -17,7 +17,7 @@
 }
 
 .head-title button {
-    min-width: 20%;
+    min-width: auto;
     min-height: 50px;
     font-weight: bold;
     text-transform: uppercase;
