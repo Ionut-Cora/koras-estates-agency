@@ -42,8 +42,8 @@
 
 @media only screen and (max-width: 600px) {
     .properties-section button {
-        min-height: auto;
-        min-width: auto;
+        /* min-height: auto;
+        min-width: auto; */
         font-size: 0.5rem;
         display: flex;
         align-items: center;

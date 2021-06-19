@@ -27,7 +27,7 @@
     .about-section button {
         width: 50%;
         font-size: 12px;
-        height: 30px;
+        /* height: 30px; */
     }
 }
 
@@ -35,7 +35,7 @@
     .about-section button {
         width: 50%;
         font-size: 12px;
-        height: 30px;
+        /* height: 30px; */
     }
 
     .about-section h2 {
