@@ -46,9 +46,9 @@
         font-size: 3rem;
     }
 
-    /* .head-title p {
+    .head-title p {
         display: none;
-    } */
+    }
 
     .head-title button {
         width: 40%;
@@ -59,16 +59,13 @@
 
 @media only screen and (max-width: 600px) {
     .head-title {
-        padding-bottom: 50%;
+        padding-bottom: 90%;
     }
 
-    /* .head-title h1 {
-        font-size: 1.5rem;
-    } */
-
-    /* .head-title p {
-        display: none;
-    } */
+    .head-title h1 {
+        font-size: 2rem;
+        margin-bottom: 40px;
+    }
 
     .head-title button {
         min-width: 40%;
