@@ -1,9 +1,4 @@
 
-.carousel-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .head-img {
     height: 100vh;
@@ -12,6 +7,10 @@
 
 .head-title {
     padding: 27%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .head-title h1 {
@@ -23,9 +22,17 @@
     font-size: 1.5rem;
 }
 
+#buttons-div {
+    display: flex;
+}
+
+#buttons-div button {
+    margin: 0 10px;
+}
+
 .head-title button {
-    min-width: auto;
-    min-height: 50px;
+    width: 150px;
+    height: 60px;
     font-weight: bold;
     text-transform: uppercase;
     margin: 1%;
@@ -75,7 +82,7 @@
 
     .head-title button {
         width: 200px;
-        height: 2rem;
+        height: 50px;
         font-size: 0.8rem;
         border: 1px solid #fff;
     }

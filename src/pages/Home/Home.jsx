@@ -26,12 +26,14 @@ function Home() {
                             <div className="head-title container">
                                 <h1>London Estate Agents</h1>
                                 <p>London Estate Agents specialising in property for sale and to rent in London.</p>
-                                <Link to="/rent">
-                                    <button>Rent a property</button>
-                                </Link>
-                                <Link to="/buy">
-                                    <button>Buy a property</button>
-                                </Link>
+                                <div id="buttons-div">
+                                    <Link to="/rent">
+                                        <button>Rent a property</button>
+                                    </Link>
+                                    <Link to="/buy">
+                                        <button>Buy a property</button>
+                                    </Link>
+                                </div>
                             </div>
                         </Carousel.Caption>
                     </Carousel.Item>              
