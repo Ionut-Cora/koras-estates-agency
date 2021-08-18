@@ -80,6 +80,15 @@
         margin-bottom: 40px;
     }
 
+    #buttons-div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #buttons-div button {
+        margin: 10px 0;
+    }
+
     .head-title button {
         width: 200px;
         height: 50px;
