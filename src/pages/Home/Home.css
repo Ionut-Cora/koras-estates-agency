@@ -51,15 +51,15 @@
     }
 
     .head-title button {
-        width: 40%;
-        height: 25px;
-        font-size: 10px;
+        width: 200px;
+        height: 2rem;
+        font-size: 1rem;
     }
 }
 
 @media only screen and (max-width: 600px) {
     .head-title {
-        padding-bottom: 90%;
+        padding-bottom: 60%;
     }
 
     .head-title h1 {
@@ -68,9 +68,9 @@
     }
 
     .head-title button {
-        min-width: 40%;
-        min-height: 2rem;
-        font-size: 0.5rem;
+        width: 200px;
+        height: 2rem;
+        font-size: 0.8rem;
         border: 1px solid #fff;
     }
 }
