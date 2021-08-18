@@ -1,6 +1,6 @@
 
 .contact-section {
-    background: #343a40;
+    background: #12776d;
     padding-bottom: 5rem;
 }
 
@@ -37,7 +37,7 @@
 
 .contact-section button:hover {
     background-color: #fff;
-    color: #343a40;
+    color: #12776d;
 }
 
 @media only screen and (max-width: 990px) {

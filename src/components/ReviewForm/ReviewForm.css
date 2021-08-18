@@ -11,7 +11,7 @@
 #list li {
     flex-basis: 40%;
     flex-grow: 0;
-    background-color: #343a40;
+    background-color: #12776d;
     color: #fff;
     padding: 10px;
     margin: 10px;
@@ -24,6 +24,7 @@
 #review-section h3,
 #review-section h4 {
     margin: 2%;
+    color: #12776d;
 }
 
 #review-section #customer-review {
@@ -31,10 +32,15 @@
     margin-top: 1.5rem;
 }
 
+#name {
+    border-color: #12776d;
+}
+
 #name-text,
 #name,
 #name-submit {
     margin: 0 1rem;
+    color: #12776d;
 }
 
 #name-submit {
@@ -44,13 +50,22 @@
     text-transform: uppercase;
     margin: 1%;
     background-color: transparent;
-    border: 2px solid #343a40;
-    color: #343a40;
+    border: 2px solid #12776d;
+    color: #12776d;
 }
 
 #name-submit:hover {
-    background-color: #343a40;
+    background-color: #12776d;
     color: #fff;
+}
+
+#customer-review {
+    color: #12776d;
+    border-color: #12776d;
+}
+
+#customer-review::placeholder {
+    color: #12776d;
 }
 
 @media only screen and (max-width: 990px) {

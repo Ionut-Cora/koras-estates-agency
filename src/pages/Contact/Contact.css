@@ -25,15 +25,30 @@
 .contact #office-details-div h1 {
     margin: 10%;
     font-weight: bold;
+    color: #12776d;
 }
 
 .contact #office-details-div h5 {
     font-weight: bold;
 }
 
+#office-details-div ion-icon,
+#office-details-div p {
+    color: #12776d;
+}
+
+#contact-page-phone,
+#contact-page-email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #contact-page-phone a,
-#contact-page-email a {
-    color: #343a40;
+#contact-page-phone ion-icon,
+#contact-page-email a,
+#contact-page-email ion-icon {
+    color: #12776d;
 }
 
 #contact-page-phone,

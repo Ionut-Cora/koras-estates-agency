@@ -1,6 +1,7 @@
 
-.head-div {
-    margin-top: 3rem;
+.head-img {
+    height: 100vh;
+    object-fit: cover;
 }
 
 .head-title {
@@ -29,25 +30,25 @@
 
 .head-title button:hover {
     background-color: #fff;
-    color: #343a40;
+    color: #12776d;
 }
 
 .head-img {
-    filter: brightness(40%);
+    filter: brightness(30%);
 }
 
 @media only screen and (max-width: 990px) {
     .head-title {
-        padding: 15%;
+        padding-bottom: 30%;
     }
 
     .head-title h1 {
         font-size: 3rem;
     }
 
-    .head-title p {
+    /* .head-title p {
         display: none;
-    }
+    } */
 
     .head-title button {
         width: 40%;
@@ -58,16 +59,16 @@
 
 @media only screen and (max-width: 600px) {
     .head-title {
-        padding: 15%;
+        padding-bottom: 50%;
     }
 
-    .head-title h1 {
+    /* .head-title h1 {
         font-size: 1.5rem;
-    }
+    } */
 
-    .head-title p {
+    /* .head-title p {
         display: none;
-    }
+    } */
 
     .head-title button {
         min-width: 40%;

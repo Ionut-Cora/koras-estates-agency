@@ -1,6 +1,6 @@
 
 .about-section {
-    background: #343a40;
+    background: #12776d;
 }
 
 .about-section h2,
@@ -20,7 +20,7 @@
 
 .about-section button:hover {
     background-color: #fff;
-    color: #343a40;
+    color: #12776d;
 }
 
 @media only screen and (max-width: 990px) {

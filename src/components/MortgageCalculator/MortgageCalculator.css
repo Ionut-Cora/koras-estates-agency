@@ -5,6 +5,7 @@
 
 .mortgage-section h2 {
     margin-bottom: 3%;
+    color: #12776d;
 }
 
 #calculator-form {
@@ -13,8 +14,14 @@
     align-items: center;
 }
 
+#calculator-form label {
+    color: #12776d;
+}
+
 #calculator-form .calculator-input {
     width: 50%;
+    border-color: #12776d;
+    color: #12776d;
 }
 
 #calculator-form #calculator-submit {
@@ -25,12 +32,12 @@
     text-transform: uppercase;
     margin: 3rem;
     background-color: transparent;
-    border: 2px solid #343a40;
-    color: #343a40;
+    border: 2px solid #12776d;
+    color: #12776d;
 }
 
 #calculator-form #calculator-submit:hover {
-    background-color: #343a40;
+    background-color: #12776d;
     color: #fff;
 }
 
@@ -41,6 +48,7 @@
 
 #calculator-result p {
     margin: 1%;
+    color: #12776d;
 }
 
 @media only screen and (max-width: 600px) {

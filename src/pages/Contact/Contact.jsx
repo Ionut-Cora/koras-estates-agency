@@ -14,14 +14,14 @@ function Contact() {
                     <div id="office-details-div">
                         <h1>Contact us</h1>
                         <div id="contact-page-phone">
-                            <h5>Call us</h5>
+                            <ion-icon name="call-outline"></ion-icon>
                             <a href="tel:020 3030 4040">020 3030 4040</a>
                         </div>
                         <div id="contact-page-email">
-                            <h5>Email us</h5>
+                            <ion-icon name="mail-outline"></ion-icon>
                             <a href="mailto:koras.agency@gmail.com">koras.agency@gmail.com</a>
                         </div>
-                        <h5>Our address</h5>
+                        <ion-icon name="location-outline"></ion-icon>
                         <p>1 Fake Street London FA1 1LO</p>
                     </div>
                 </div>

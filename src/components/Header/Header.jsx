@@ -7,7 +7,7 @@ function Header() {
 
         return(
             <div className="full-navi">
-                <Navbar fixed="top" bg="dark" expand="lg">
+                <Navbar id="top-nav" expand="lg">
                     <div className="navi container d-flex">
                         <Link to="/" id="logo">Koras</Link>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />

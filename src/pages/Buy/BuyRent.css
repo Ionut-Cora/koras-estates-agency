@@ -2,6 +2,7 @@
 .buy-rent h1 {
     margin: 3rem;
     font-weight: bold;
+    color: #12776d;
 }
 
 .buy-rent {
@@ -9,7 +10,7 @@
 }
 
 .product-section {
-    background-color: #343a40;
+    background-color: #12776d;
     padding-top: 3rem;
     margin: 2rem 0;
 }
@@ -44,8 +45,10 @@
     padding-bottom: 5rem;
 }
 
-.interest-section a {
-    color: #343a40;
+.interest-section a,
+.interest-section h4,
+.interest-section p {
+    color: #12776d;
 }
 
 @media only screen and (max-width: 600px) {

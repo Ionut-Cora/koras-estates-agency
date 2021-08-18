@@ -11,7 +11,7 @@ function PropertiesSection() {
                 <div className="properties-item d-flex align-items-center">
                     <img className="w-50" src={rentPicture} alt="rent properties"/>
                     <div className="properties-details w-50">
-                        <h3>More properties for rent</h3>
+                        {/* <h3>More properties for rent</h3> */}
                         <Link to="/rent">
                             <button>Rent Properties</button>                       
                         </Link>
@@ -19,7 +19,7 @@ function PropertiesSection() {
                 </div>
                 <div className="properties-item d-flex align-items-center">
                     <div className="properties-details w-50">
-                        <h3>More properties to buy</h3>
+                        {/* <h3>More properties to buy</h3> */}
                         <Link to="/buy">
                             <button>Buy Properties</button>                       
                         </Link>
