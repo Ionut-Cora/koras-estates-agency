@@ -1,4 +1,14 @@
-## https://ionut-cora.github.io/koras-estates-agency/
+# Koras Estate Agency
+
+## For this website I used:
+- React
+- CSS
+- Bootstrap
+
+## Website description
+On this estate agency website the customer wiil find properties to buy, or properties to rent. The website contain also an Mortgage Calculator component, where the customer can calculate the right amount price for any property, at any price. On the about page, the customer can let an review in the review component.
+
+## View live website: https://ionut-cora.github.io/koras-estates-agency/
 
 # Getting Started with Create React App
 
