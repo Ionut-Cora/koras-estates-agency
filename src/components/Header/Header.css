@@ -8,7 +8,7 @@
 }
 
 #logo {
-    margin-right: 65%;
+    margin-right: 63%;
     font-weight: bold;
     color: #fff;
     text-decoration: none;
@@ -28,4 +28,10 @@
 .nav-links:hover {
     color: #dddddd;
     text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    #logo {
+        margin-right: 0;
+    }
 }

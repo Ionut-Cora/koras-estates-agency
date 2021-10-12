@@ -23,15 +23,15 @@ function Home() {
                         alt="First slide"
                         />
                         <Carousel.Caption>
-                            <div className="head-title container">
+                            <div className="head-title first-head-content container">
                                 <h1>London Estate Agents</h1>
                                 <p>London Estate Agents specialising in property for sale and to rent in London.</p>
                                 <div id="buttons-div">
                                     <Link to="/rent">
-                                        <button>Rent a property</button>
+                                        <button>Rent properties</button>
                                     </Link>
                                     <Link to="/buy">
-                                        <button id="buy-button">Buy a property</button>
+                                        <button id="buy-button">Buy properties</button>
                                     </Link>
                                 </div>
                             </div>
@@ -45,10 +45,10 @@ function Home() {
                         alt="Second slide"
                         />
                         <Carousel.Caption>
-                            <div className="head-title container">
+                            <div className="head-title second-head-content container">
                                 <h1 id="rent-title">Stunning properties for rent</h1>
                                 <Link to="/rent">
-                                    <button>Rent a property</button>
+                                    <button>Rent properties</button>
                                 </Link>
                             </div>
                         </Carousel.Caption>
@@ -61,11 +61,11 @@ function Home() {
                         alt="Third slide"
                         />
                         <Carousel.Caption>
-                            <div className="head-title container">
+                            <div className="head-title third-head-content container">
                                 <h1>Buy your own property today</h1>
                                 <p>We are here to help you</p>
                                 <Link to="/buy">
-                                    <button>Buy a property</button>
+                                    <button>Buy properties</button>
                                 </Link>
                             </div>
                         </Carousel.Caption>

@@ -5,7 +5,7 @@ import './AboutCompany.css';
 function AboutCompany() {
     return(
         <div className="about-section">
-            <div className="container p-5">
+            <div className="container">
                 <h2>About Company</h2>
                 <p>Founded in 1955, this company try the best for his clients.</p>
                 <Link to="/about">
