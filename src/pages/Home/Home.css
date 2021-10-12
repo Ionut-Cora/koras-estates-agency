@@ -6,11 +6,12 @@
 }
 
 .head-title {
-    padding: 27%;
+    padding: 20%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-transform: uppercase;
 }
 
 .head-title h1 {
@@ -20,6 +21,11 @@
 
 .head-title p {
     font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+#rent-title {
+    margin-bottom: 3rem;
 }
 
 #buttons-div {
@@ -31,23 +37,38 @@
 }
 
 .head-title button {
-    width: 150px;
-    height: 60px;
-    font-weight: bold;
     text-transform: uppercase;
-    margin: 1%;
-    background-color: transparent;
-    border: 2px solid #fff;
-    color: #fff;
+    border: none;
+    color: #000;
+    background-color: #fff;
+    font-size: 1.125rem;
+    padding: 17px 30px 16px;
 }
 
-.head-title button:hover {
-    background-color: #fff;
+#buy-button {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.head-title button:hover,
+#buy-button:hover {
+    background-color: rgb(230, 230, 230);
     color: #12776d;
+}
+
+#buy-button:hover {
+    border: 1px solid rgb(230, 230, 230);
 }
 
 .head-img {
     filter: brightness(30%);
+}
+
+@media only screen and (min-width: 1700px) {
+    .head-title {
+        padding-bottom: 30%;
+    }
 }
 
 @media only screen and (max-width: 990px) {
@@ -61,12 +82,6 @@
 
     .head-title p {
         display: none;
-    }
-
-    .head-title button {
-        width: 200px;
-        height: 2rem;
-        font-size: 1rem;
     }
 }
 
@@ -87,12 +102,5 @@
 
     #buttons-div button {
         margin: 10px 0;
-    }
-
-    .head-title button {
-        width: 150px;
-        height: 50px;
-        font-size: 0.8rem;
-        border: 1px solid #fff;
     }
 }

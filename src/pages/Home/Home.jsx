@@ -31,7 +31,7 @@ function Home() {
                                         <button>Rent a property</button>
                                     </Link>
                                     <Link to="/buy">
-                                        <button>Buy a property</button>
+                                        <button id="buy-button">Buy a property</button>
                                     </Link>
                                 </div>
                             </div>
@@ -46,7 +46,7 @@ function Home() {
                         />
                         <Carousel.Caption>
                             <div className="head-title container">
-                                <h1>Stunning properties for rent</h1>
+                                <h1 id="rent-title">Stunning properties for rent</h1>
                                 <Link to="/rent">
                                     <button>Rent a property</button>
                                 </Link>

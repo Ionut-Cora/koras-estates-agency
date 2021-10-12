@@ -1,6 +1,5 @@
 
 #top {
-    width: 73%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -30,8 +29,9 @@
     color: #12776d;
 }
 
-@media screen and (max-width: 600px) {
-    #top {
-        width: 95%;
-    }
+#top-phone p:hover,
+#top-phone ion-icon:hover,
+#top-other ion-icon:hover {
+    cursor: pointer;
+    color: #bbbbbb;
 }

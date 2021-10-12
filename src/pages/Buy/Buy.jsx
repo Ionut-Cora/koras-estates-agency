@@ -10,17 +10,12 @@ function Buy() {
         <div>
             <Layout>
                 <div className="buy-rent container">
-                    <h1>Properties for buy</h1>
+                    <h1>Properties to buy</h1>
                     <div>
                         {products.buy.map((product) => (
                             <div key={product.id}>
                                 <div className="product-section d-flex flex-column align-items-center">
                                     <div className="w-75">
-                                            {/* <img
-                                                className="d-block w-100"
-                                                src={product.image1}
-                                                alt="Property pic"
-                                            /> */}
                                             <Carousel>
                                                 <Carousel.Item>
                                                     <img

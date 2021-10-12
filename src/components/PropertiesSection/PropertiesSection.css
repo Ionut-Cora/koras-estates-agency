@@ -3,6 +3,11 @@
     padding: 2rem;
 }
 
+.properties-section img {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 50%;
+}
+
 .properties-item {
     padding: 2rem;
 }
@@ -12,32 +17,43 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 50%;
 }
 
 .properties-details h3 {
     color: #12776d;
 }
 
+.properties-details a:hover {
+    text-decoration: none;
+}
+
 .properties-section button {
     padding: 0.5rem;
-    font-weight: bold;
+    background-color: #12776d;
+    color: #fff;
     text-transform: uppercase;
-    margin: 1%;
-    background-color: transparent;
-    border: 2px solid #12776d;
-    color: #12776d;
+    border: none;
+    font-size: 1.125rem;
+    padding: 17px 30px 16px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .properties-section button:hover {
-    background-color: #12776d;
-    color: #fff;
+    background-color: #008376;
 }
 
 @media only screen and (max-width: 990px) {
+    .properties-item {
+        flex-direction: column;
+    }
+
+    .properties-item img {
+        width: 100%;
+    }
+
     .properties-section button {
-        /* width: 100%;
-        height: 40px; */
-        font-size: 10px;
+        margin: 2rem;
     }
 
     .properties-section h3 {
@@ -45,24 +61,18 @@
     }
 
     .properties-details {
-        padding: 1rem;
+        width: 100%;
     }
 }
 
 @media only screen and (max-width: 600px) {
     .properties-section button {
-        font-size: 0.5rem;
         display: flex;
         align-items: center;
         justify-content: center;
-        /* padding: 0.5rem; */
     }
 
     .properties-section h3 {
         font-size: 0.7rem;
-    }
-
-    .properties-details {
-        padding: 1rem;
     }
 }

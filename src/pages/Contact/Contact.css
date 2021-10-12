@@ -8,6 +8,7 @@
     width: 75%;
     margin-top: 5%;
     margin-bottom: 15%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .contact #office-image-div,
@@ -26,6 +27,7 @@
     margin: 10%;
     font-weight: bold;
     color: #12776d;
+    text-transform: uppercase;
 }
 
 .contact #office-details-div h5 {

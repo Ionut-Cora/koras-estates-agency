@@ -3,42 +3,26 @@
     background: #12776d;
 }
 
+.about-section h2 {
+    text-transform: uppercase;
+}
+
 .about-section h2,
 .about-section p {
     color: #fff;
 }
 
 .about-section button {
-    width: 20%;
-    height: 50px;
-    font-weight: bold;
-    margin: 1%;
-    background-color: transparent;
-    border: 2px solid #fff;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
+    text-transform: uppercase;
+    border: none;
+    font-size: 1.125rem;
+    padding: 17px 30px 16px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .about-section button:hover {
-    background-color: #fff;
+    background-color: rgb(250, 250, 250);
     color: #12776d;
-}
-
-@media only screen and (max-width: 990px) {
-    .about-section button {
-        width: 50%;
-        font-size: 12px;
-        /* height: 30px; */
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .about-section button {
-        width: 50%;
-        font-size: 12px;
-        /* height: 30px; */
-    }
-
-    .about-section h2 {
-        font-size: 1.5rem;
-    }
 }

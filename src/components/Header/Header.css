@@ -12,18 +12,20 @@
     font-weight: bold;
     color: #fff;
     text-decoration: none;
+    font-size: 1.5rem;
 }
 
 #logo:hover {
-    color: #bfbfbf;
+    color: #dddddd;
 }
 
 .nav-links {
     color: #fff;
-    margin: 0 0.5rem;
+    margin: 0.5rem;
+    text-transform: uppercase;
 }
 
 .nav-links:hover {
-    color: #bfbfbf;
+    color: #dddddd;
     text-decoration: none;
 }

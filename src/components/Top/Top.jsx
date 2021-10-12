@@ -3,7 +3,7 @@ import './Top.css';
 
 function Top() {
     return(
-        <div id="top">
+        <div className="container" id="top">
             <div id="top-phone">
                 <ion-icon name="call-outline"></ion-icon>
                 <p>02030304040</p>

@@ -4,6 +4,10 @@
     padding-bottom: 5rem;
 }
 
+.contact-section h2 {
+    text-transform: uppercase;
+}
+
 .contact-section h2,
 .contact-section p,
 .contact-section a {
@@ -25,41 +29,22 @@
 }
 
 .contact-section button {
-    width: 20%;
-    height: 50px;
-    font-weight: bold;
+    background-color: #fff;
+    color: #000;
     text-transform: uppercase;
-    margin: 1%;
-    background-color: transparent;
-    border: 2px solid #fff;
-    color: #fff;
+    border: none;
+    font-size: 1.125rem;
+    padding: 17px 30px 16px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .contact-section button:hover {
-    background-color: #fff;
+    background-color: rgb(250, 250, 250);
     color: #12776d;
-}
-
-@media only screen and (max-width: 990px) {
-    .contact-section button {
-        width: 40%;
-        height: 40px;
-        font-size: 13px;
-    }
 }
 
 @media only screen and (max-width: 600px) {
     .contact-section {
         padding-bottom: 2.5rem;
-    }
-
-    .contact-section h2 {
-        font-size: 1.5rem;
-    }
-
-    .contact-section button {
-        width: 40%;
-        height: 40px;
-        font-size: 13px;
     }
 }
