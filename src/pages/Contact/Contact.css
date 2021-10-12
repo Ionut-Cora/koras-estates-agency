@@ -7,8 +7,12 @@
 .contact #office-image {
     width: 75%;
     margin-top: 5%;
-    margin-bottom: 15%;
+    margin-bottom: 25%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.contact #office-details-div {
+    margin-bottom: 17%;
 }
 
 .contact #office-image-div,
@@ -58,17 +62,29 @@
     margin-bottom: 1rem;
 }
 
+@media only screen and (min-width: 1700px) {
+    .contact #office-image {
+        margin-top: 35%;
+    }
+    
+    .contact #office-details-div {
+        margin-top: 20%;
+    }
+}
+
 @media only screen and (max-width: 990px) {
+    .contact {
+        height: 100vh;
+        padding-top: 0;
+        padding-bottom: 3.5rem;
+    }
+
     .contact #office-image-div {
         display: none;
     }
 
     .contact #office-details-div {
         width: 100%;
-    }
-
-    .contact #office-details-div h1 {
-        font-size: 1.5rem;
     }
 }
 
@@ -79,9 +95,5 @@
 
     .contact #office-details-div {
         width: 100%;
-    }
-
-    .contact #office-details-div h1 {
-        font-size: 1.5rem;
     }
 }
