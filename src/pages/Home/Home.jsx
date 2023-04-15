@@ -15,7 +15,7 @@ function Home() {
     return(
         <div className="head-div">
             <Layout>
-                <Carousel>
+                <Carousel className='mt-5'>
                     <Carousel.Item>                       
                         <img
                         className="head-img d-block w-100"

@@ -1,37 +1,9 @@
 
 #top-nav {
     background-color: #12776d;
-}
-
-.navi {
-    min-height: 2.5rem;
+    z-index: 100;
 }
 
 #logo {
-    margin-right: 63%;
-    font-weight: bold;
-    color: #fff;
-    text-decoration: none;
     font-size: 1.5rem;
-}
-
-#logo:hover {
-    color: #dddddd;
-}
-
-.nav-links {
-    color: #fff;
-    margin: 0.5rem;
-    text-transform: uppercase;
-}
-
-.nav-links:hover {
-    color: #dddddd;
-    text-decoration: none;
-}
-
-@media only screen and (max-width: 600px) {
-    #logo {
-        margin-right: 0;
-    }
 }
