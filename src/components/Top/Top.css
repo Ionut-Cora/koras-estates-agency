@@ -1,31 +1,16 @@
 
 #top {
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    height: 3rem;
 }
 
-#top-phone {
-    display: flex;
-    align-items: center;
-}
-
-#top-phone ion-icon {
-    font-size: 1.3rem;
-    color: #12776d;
-}
-
-#top-phone p {
-    font-size: 1.2rem;
-    color: #12776d;
-    margin-top: 15px;
-    margin-left: 5px;
-}
-
+#top-phone ion-icon,
 #top-other ion-icon {
-    margin: 0 5px;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+}
+
+#top-phone ion-icon,
+#top-other ion-icon,
+#top-phone p {
     color: #12776d;
 }
 
@@ -33,5 +18,18 @@
 #top-phone ion-icon:hover,
 #top-other ion-icon:hover {
     cursor: pointer;
-    color: #bbbbbb;
+}
+
+@media only screen and (max-width: 992px) {
+    #top {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #top {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
 }
