@@ -1,6 +1,7 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import { Link } from 'react-router-dom';
+import Button from 'react-bootstrap/Button';
 import Layout from '../../components/Layout/Layout';
 import header1 from '../../images/header1.jpg';
 import header2 from '../../images/header2.jpg';
@@ -17,21 +18,17 @@ function Home() {
             <Layout>
                 <Carousel className='mt-5'>
                     <Carousel.Item>                       
-                        <img
-                        className="head-img d-block w-100"
-                        src={header1}
-                        alt="First slide"
-                        />
-                        <Carousel.Caption>
-                            <div className="head-title first-head-content container">
-                                <h1>London Estate Agents</h1>
-                                <p>London Estate Agents specialising in property for sale and to rent in London.</p>
+                        <img className="d-block w-100 vh-100" src={header1} alt="First slide" />
+                        <Carousel.Caption className='h-100 d-flex flex-column align-items-center justify-content-center'>
+                            <div className="container d-flex flex-column align-items-center justify-content-center">
+                                <h1 className='text-capitalize'>London Estate Agents</h1>
+                                <p className='mb-5'>London Estate Agents specialising in property for sale and to rent in London. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium, soluta.</p>
                                 <div id="buttons-div">
                                     <Link to="/rent">
-                                        <button>Rent properties</button>
+                                        <Button className='m-2 my-md-0 rounded-0 text-uppercase' variant='light' size='lg'>Rent a property</Button>
                                     </Link>
                                     <Link to="/buy">
-                                        <button id="buy-button">Buy properties</button>
+                                        <Button className='m-2 my-md-0 rounded-0 text-uppercase' variant='outline-light' size='lg' id="buy-button">Buy a property</Button>
                                     </Link>
                                 </div>
                             </div>
@@ -39,33 +36,26 @@ function Home() {
                     </Carousel.Item>              
 
                     <Carousel.Item>
-                        <img
-                        className="head-img d-block w-100"
-                        src={header2}
-                        alt="Second slide"
-                        />
-                        <Carousel.Caption>
-                            <div className="head-title second-head-content container">
-                                <h1 id="rent-title">Stunning properties for rent</h1>
+                        <img className="d-block w-100 vh-100" src={header2} alt="Second slide" />
+                        <Carousel.Caption className='h-100 d-flex flex-column align-items-center justify-content-center'>
+                            <div className="container d-flex flex-column align-items-center justify-content-center">
+                                <h1 className='text-capitalize'>Stunning properties for rent</h1>
+                                <p className='mb-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, nisi expedita? Quia tenetur ad ex. Nisi, dolores non nihil ducimus reiciendis deleniti ut culpa asperiores.</p>
                                 <Link to="/rent">
-                                    <button>Rent properties</button>
+                                    <Button className='m-2 my-md-0 rounded-0 text-uppercase' variant='light' size='lg'>Rent a property</Button>
                                 </Link>
                             </div>
                         </Carousel.Caption>
                     </Carousel.Item>
 
                     <Carousel.Item>
-                        <img
-                        className="head-img d-block w-100"
-                        src={header3}
-                        alt="Third slide"
-                        />
-                        <Carousel.Caption>
-                            <div className="head-title third-head-content container">
-                                <h1>Buy your own property today</h1>
-                                <p>We are here to help you</p>
+                        <img className="d-block w-100 vh-100" src={header3} alt="Third slide" />
+                        <Carousel.Caption className='h-100 d-flex flex-column align-items-center justify-content-center'>
+                            <div className="container d-flex flex-column align-items-center justify-content-center">
+                                <h1 className='text-capitalize'>Buy your own property today</h1>
+                                <p className='mb-5'>We are here to help you. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis nisi, quidem animi odit sequi dolorum officia voluptatum nulla deleniti quas!</p>
                                 <Link to="/buy">
-                                    <button>Buy properties</button>
+                                    <Button className='m-2 my-md-0 rounded-0 text-uppercase' variant='outline-light' size='lg' id="buy-button">Buy a property</Button>
                                 </Link>
                             </div>
                         </Carousel.Caption>

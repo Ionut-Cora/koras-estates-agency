@@ -1,156 +1,30 @@
 
-
-.head-img {
-    height: 100vh;
+.carousel img {
     object-fit: cover;
+    filter: brightness(30%);
 }
 
-.head-title {
-    padding: 20% 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-transform: uppercase;
-}
-
-.head-title h1 {
+.carousel h1 {
     font-size: 4rem;
     font-weight: bold;
 }
 
-.head-title p {
-    font-size: 1.5rem;
-    margin-bottom: 3rem;
-}
-
-#rent-title {
-    margin-bottom: 3rem;
-}
-
-#buttons-div {
-    display: flex;
-}
-
-#buttons-div button {
-    margin: 0 10px;
-}
-
-.head-title button {
-    text-transform: uppercase;
-    border: none;
-    color: #000;
-    background-color: #fff;
-    font-size: 1.125rem;
-    padding: 17px 30px 16px;
-}
-
-#buy-button {
-    background-color: transparent;
-    color: #fff;
-    border: 1px solid #fff;
-}
-
-.head-title button:hover,
+.carousel button:hover,
 #buy-button:hover {
-    background-color: rgb(230, 230, 230);
     color: #12776d;
 }
 
-#buy-button:hover {
-    border: 1px solid rgb(230, 230, 230);
-}
-
-.head-img {
-    filter: brightness(30%);
-}
-
-@media only screen and (min-width: 1700px) {
-    .head-title {
-        padding-bottom: 30%;
-    }
-}
-
-@media only screen and (max-width: 990px) {
-
-    .first-head-content {
-        padding-bottom: 27%;
-    }
-
-    .second-head-content {
-        padding-bottom: 35%;
-    }
-
-    .third-head-content {
-        padding-bottom: 39%;
-    }
-
-    .carousel-item .container {
-        padding-right: 0;
-        padding-left: 0;
-    }
-
-    .head-title h1 {
-        font-size: 3.5rem;
-        margin-bottom: 3rem;
-    }
-
-    .head-title p {
-        display: none;
-    }
-
-    #buttons-div {
-        display: flex;
-        flex-direction: column;
-    }
-
-    #buttons-div button {
-        margin: 10px 0;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-
-    .first-head-content {
-        padding-bottom: 45%;
-    }
-
-    .second-head-content,
-    .third-head-content {
-        padding-bottom: 65%;
-    }
-
-    .head-title h1 {
+@media only screen and (max-width: 1200px) {
+    .carousel h1 {
         font-size: 3rem;
-        margin-bottom: 40px;
     }
 }
 
-@media only screen and (max-width: 380px) {
-
-    .first-head-content {
-        padding-bottom: 70%;
+@media only screen and (max-width: 576px) {
+    .carousel h1 {
+        font-size: 2rem;
     }
 
-    .second-head-content,
-    .third-head-content {
-        padding-bottom: 95%;
-    }
-}
-
-@media only screen and (max-width: 365px) {
-
-    .first-head-content {
-        padding-bottom: 45%;
-    }
-
-    .second-head-content,
-    .third-head-content {
-        padding-bottom: 70%;
-    }
-}
-
-@media only screen and (max-width: 350px) {
     .head-div .carousel-caption {
         right: 0;
         left: 0;
@@ -159,19 +33,5 @@
     .head-div .carousel-control-prev,
     .head-div .carousel-control-next {
         z-index: 1000;
-    }
-
-    .first-head-content {
-        padding-bottom: 20%;
-    }
-
-    .second-head-content,
-    .third-head-content {
-        padding-bottom: 40%;
-    }
-
-    .head-title h1 {
-        font-size: 2.5rem;
-        margin-bottom: 40px;
     }
 }
