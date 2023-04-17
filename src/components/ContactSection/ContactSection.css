@@ -1,50 +1,14 @@
 
-.contact-section {
-    background: #12776d;
-    padding-bottom: 5rem;
+.contact-section img {
+    width: 75%;
 }
 
 .contact-section h2 {
-    text-transform: uppercase;
+    font-size: 3rem;
 }
 
-.contact-section h2,
-.contact-section p,
-.contact-section a {
-    color: #fff;
-}
-
-#contact-phone,
-#contact-email {
-    margin-bottom: 1rem;
-}
-
-#contact-phone p,
-#contact-email p {
-    font-weight: bold;
-}
-
-.contact-section a:hover {
-    color: #fff;
-}
-
-.contact-section button {
-    background-color: #fff;
-    color: #000;
-    text-transform: uppercase;
-    border: none;
-    font-size: 1.125rem;
-    padding: 17px 30px 16px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.contact-section button:hover {
-    background-color: rgb(250, 250, 250);
-    color: #12776d;
-}
-
-@media only screen and (max-width: 600px) {
-    .contact-section {
-        padding-bottom: 2.5rem;
+@media only screen and (max-width: 576px) {
+    .contact-section h2 {
+        font-size: 2.5rem;
     }
 }
