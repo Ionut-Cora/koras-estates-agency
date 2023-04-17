@@ -1,53 +1,49 @@
 
-.mortgage-section {
-    padding: 3rem 0;
-}
-
 .mortgage-section h2 {
-    margin-bottom: 3%;
-    color: #12776d;
-    text-transform: uppercase;
+    font-size: 3rem;
 }
 
 #calculator-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#calculator-form label {
-    color: #12776d;
-}
-
-#calculator-form .calculator-input {
     width: 50%;
-    border-color: #12776d;
-    color: #12776d;
+}
+
+#calculator-form input {
+    height: 2.5rem;
+}
+
+#calculator-form input:focus {
+    outline: none;
+}
+
+#calculator-form input::placeholder {
+    color: #a0aec0;
 }
 
 #calculator-form #calculator-submit {
-    border-radius: 0%;
-    background-color: #12776d;
-    color: #fff;
-    text-transform: uppercase;
-    border: none;
-    font-size: 1.125rem;
-    padding: 17px 30px 16px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-}
-
-#calculator-form #calculator-submit:hover {
     background-color: #008376;
 }
 
-#calculator-result {
-    display: flex;
-    justify-content: center;
+#calculator-form #calculator-submit:hover {
+    background-color: #e2e6ea;
+    color: #212529;
 }
 
-#calculator-result p {
-    margin: 1%;
-    color: #12776d;
+#calculator-result {
+    background-color: #FFFFFF;
+}
+
+@media only screen and (max-width: 992px) {
+    #calculator-form {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #calculator-form {
+        width: 100%;
+    }
+
+    .mortgage-section h2 {
+        font-size: 2.5rem;
+    }
 }
