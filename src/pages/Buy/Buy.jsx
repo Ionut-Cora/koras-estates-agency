@@ -12,7 +12,7 @@ function Buy() {
             <Layout>
                 <div className="buy-rent">
                     <div className='container py-5'>
-                        <h1 className='text-capitalize mb-3 mb-md-5 mt-0 mt-md-2'>
+                        <h1 className='text-capitalize my-3 my-md-5'>
                             <strong>Properties for sale</strong>
                         </h1>
                         <div className='row'>
@@ -90,12 +90,16 @@ function Buy() {
                         </div>
                     </div>
 
-                    <MortgageCalculator />
+                    <div className='bg-light'>
+                        <MortgageCalculator />
+                    </div>
 
-                    <div className="interest-section">
-                        <h4>Interested in one of the above properties?</h4>
-                        <p>Call Koras</p>
-                        <a href="tel:020 3030 4040">020 3030 4040</a>
+                    <div className="interest-section container py-5">
+                        <h4 className='text-capitalize'>Interested in one of the above properties?</h4>
+                        <div className='d-flex justify-content-center'>
+                            <p className='text-capitalize mx-1 mb-0'>Call us:</p>
+                            <a className='mx-1' href="tel:020 3030 4040">020 3030 4040</a>
+                        </div>
                     </div>
                 </div>
             </Layout>
