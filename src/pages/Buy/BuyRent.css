@@ -1,45 +1,59 @@
 
-.buy-rent h1 {
-    margin: 3rem;
-    font-weight: bold;
-    color: #12776d;
-    text-transform: uppercase;
-}
-
 .buy-rent {
     padding: 2.5rem 0;
 }
 
-.product-section {
+.buy-rent h1 {
+    font-size: 3rem;
+    /* margin: 3rem;
+    font-weight: bold; */
+    color: #12776d;
+    /* text-transform: uppercase; */
+}
+
+.buy-rent .carousel img {
+    filter: none;
+}
+
+.buy-rent .card {
     background-color: #12776d;
-    padding-top: 3rem;
-    margin: 2rem 0;
+    /* padding-top: 3rem;
+    margin: 2rem 0; */
 }
 
-.product-section h3,
-.product-section p {
-    color: #fff;
+/* .product-section .card-title,
+.product-section .card-text {
+    color: #FFFFFF;
+} */
+
+.buy-rent .rooms,
+.buy-rent .address {
+    font-size: 14px;
 }
 
-.buy-rent .product-details {
+.buy-rent .rooms {
+    color: #d1d5db;
+}
+
+/* .buy-rent .product-details {
     margin: 5%;
-}
+} */
 
-.buy-rent button {
+/* .buy-rent button {
     height: 50px;
     width: 50%;
     border-radius: 5px;
     font-weight: bold;
     margin: 1%;
     background-color: #343a40;
-    color: #fff;
+    color: #FFFFFF;
     border: 0;
-}
+} */
 
-.buy-rent button:hover {
-    background-color: #fff;
+/* .buy-rent button:hover {
+    background-color: #FFFFFF;
     color: #343a40;
-}
+} */
 
 .interest-section {
     padding-top: 2rem;
@@ -52,8 +66,8 @@
     color: #12776d;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 576px) {
     .buy-rent h1 {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 }
