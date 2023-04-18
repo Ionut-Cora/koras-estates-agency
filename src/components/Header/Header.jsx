@@ -14,8 +14,8 @@ function Header() {
                 <Navbar.Collapse className='justify-content-end' id="basic-navbar-nav">
                     <Nav>
                         <Link className="nav-link active" to="/">Home</Link>
-                        <Link className="nav-link" to="/buy">Buy</Link>
-                        <Link className="nav-link" to="/rent">Rent</Link>
+                        <Link className="nav-link text-capitalize" to="/buy">For sale</Link>
+                        <Link className="nav-link text-capitalize" to="/rent">To rent</Link>
                         <Link className="nav-link" to="/about">About</Link>
                         <Link className="nav-link" to="/contact">Contact</Link>
                     </Nav>
