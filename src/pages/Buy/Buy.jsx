@@ -12,14 +12,14 @@ function Buy() {
             <Layout>
                 <div className="buy-rent">
                     <div className='container py-5'>
-                        <h1 className='text-capitalize my-3 my-md-5'>
+                        <h1 className='text-capitalize mb-3 mt-5 my-md-5'>
                             <strong>Properties for sale</strong>
                         </h1>
                         <div className='row'>
                             {products.buy.map((product) => (
                                 <div className='col-12 col-lg-6 my-3' key={product.id}>
                                     <Card className="product-section d-flex flex-column align-items-center h-100 shadow">
-                                        <div className="">
+                                        <div>
                                                 <Carousel slide={false} interval={null}>
                                                     <Carousel.Item>
                                                         <img
