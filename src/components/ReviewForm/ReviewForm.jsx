@@ -48,7 +48,7 @@ class ReviewForm extends React.Component {
                         <strong>What are our customers saying?</strong>
                     </h3>
                     <p className='text-light mb-5'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur iste doloribus praesentium fugiat est quas sapiente voluptas neque cupiditate consequuntur ad, placeat commodi! Expedita a nobis doloremque praesentium possimus cumque.</p>
-                    <ul className='row justify-content-center p-0 list-unstyled'>
+                    <ul className='row justify-content-center p-0 list-unstyled' id='list'>
                         <li className='col-12 col-lg-6 my-3'>
                             <Card className='h-100 rounded-0'>
                                 <Card.Body className='d-flex align-items-center justify-content-center'>

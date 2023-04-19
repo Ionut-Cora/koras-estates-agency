@@ -16,7 +16,11 @@
     outline: none;
 }
 
-#name-submit:hover {
+#customer-form button:focus {
+    box-shadow: none;
+}
+
+#customer-form button:hover {
     background-color: #008376;
 }
 
