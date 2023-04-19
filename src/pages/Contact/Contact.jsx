@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '../../components/Layout/Layout';
 import office from '../../images/office.jpg';
+import MortgageCalculator from '../../components/MortgageCalculator/MortgageCalculator';
 import './Contact.css';
 
 function Contact() {
@@ -37,6 +38,10 @@ function Contact() {
                             </div>
                         </div>
                     </div>
+                </div>
+
+                <div className="bg-light">
+                    <MortgageCalculator />
                 </div>
             </Layout>
         </div>
