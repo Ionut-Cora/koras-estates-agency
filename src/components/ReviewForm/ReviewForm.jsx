@@ -38,6 +38,17 @@ class ReviewForm extends React.Component {
             </div>
         `;
         list.appendChild(newCustomer);
+
+        this.setState({
+            name: "",
+            comment: ""
+        });
+
+        const customerName = document.getElementById('name');
+        const customerReview = document.getElementById('customer-review');
+
+        customerName.value = '';
+        customerReview.value = '';
     }
 
     render() {
