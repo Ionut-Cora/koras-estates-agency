@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/koras-estates-agency/static/css/main.9f7ba382.chunk.css",
-    "main.js": "/koras-estates-agency/static/js/main.bbeb8053.chunk.js",
-    "main.js.map": "/koras-estates-agency/static/js/main.bbeb8053.chunk.js.map",
+    "main.js": "/koras-estates-agency/static/js/main.5aaf9426.chunk.js",
+    "main.js.map": "/koras-estates-agency/static/js/main.5aaf9426.chunk.js.map",
     "runtime-main.js": "/koras-estates-agency/static/js/runtime-main.7246ece4.js",
     "runtime-main.js.map": "/koras-estates-agency/static/js/runtime-main.7246ece4.js.map",
     "static/css/2.a402c3df.chunk.css": "/koras-estates-agency/static/css/2.a402c3df.chunk.css",
@@ -28,6 +28,6 @@
     "static/css/2.a402c3df.chunk.css",
     "static/js/2.cd07d1be.chunk.js",
     "static/css/main.9f7ba382.chunk.css",
-    "static/js/main.bbeb8053.chunk.js"
+    "static/js/main.5aaf9426.chunk.js"
   ]
 }
