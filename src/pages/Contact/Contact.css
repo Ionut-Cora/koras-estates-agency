@@ -1,99 +1,18 @@
 
-.contact {
-    display: flex;
-    padding-top: 3rem;
-}
-
-.contact #office-image {
+.contact img {
     width: 75%;
-    margin-top: 5%;
-    margin-bottom: 25%;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.contact #office-details-div {
-    margin-bottom: 17%;
+.contact h1 {
+    font-size: 3rem;
 }
 
-.contact #office-image-div,
-.contact #office-details-div {
-    width: 50%;
-}
-
-.contact #office-details-div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.contact #office-details-div h1 {
-    margin: 10%;
-    font-weight: bold;
-    color: #12776d;
-    text-transform: uppercase;
-}
-
-.contact #office-details-div h5 {
-    font-weight: bold;
-}
-
-#office-details-div ion-icon,
-#office-details-div p {
+.contact ion-icon {
     color: #12776d;
 }
 
-#contact-page-phone,
-#contact-page-email {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#contact-page-phone a,
-#contact-page-phone ion-icon,
-#contact-page-email a,
-#contact-page-email ion-icon {
-    color: #12776d;
-}
-
-#contact-page-phone,
-#contact-page-email {
-    margin-bottom: 1rem;
-}
-
-@media only screen and (min-width: 1700px) {
-    .contact #office-image {
-        margin-top: 35%;
-    }
-    
-    .contact #office-details-div {
-        margin-top: 20%;
-    }
-}
-
-@media only screen and (max-width: 990px) {
-    .contact {
-        height: 100vh;
-        padding-top: 0;
-        padding-bottom: 3.5rem;
-    }
-
-    .contact #office-image-div {
-        display: none;
-    }
-
-    .contact #office-details-div {
-        width: 100%;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .contact #office-image-div {
-        display: none;
-    }
-
-    .contact #office-details-div {
-        width: 100%;
+@media only screen and (max-width: 576px) {
+    .contact h1 {
+        font-size: 2rem;
     }
 }
